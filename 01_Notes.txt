@@ -1,0 +1,9 @@
+# This is a notes file for C programming language.
+< Installation of C Compiler >
+I don't give a fuck about Windows and Mac. I love Linux and it's my main host machine.
+$ sudo dnf groupinstall "Development Tools" -y
+$ sudo dnf install gcc -y
+$ gcc --version # Verify
+
+" Also install C/C++ inteliSense extension in VS Code "
+
