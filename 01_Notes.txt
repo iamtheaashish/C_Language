@@ -1,65 +1,7 @@
-# This is a notes file for C programming language. View it in VS Code with "Txt Syntax" extension by "xshrim" installed.
-< Installation of C Compiler >
-I don't give a fuck about Windows and Mac. I love Linux and it's my main host machine.
-$ sudo dnf groupinstall "Development Tools" -y
-$ sudo dnf install gcc -y
-$ gcc --version # Verify
+Thanks to Code With Harry for his wonderful handwritten notes. 
+Will not upload it on GitHub but can share it's link for reference.
 
-" Also install C/C++ IntelliSense extension in VS Code "
-`Why am I learning C Language ?` # invented in 1972 by Dennis Ritchie at AT&T Bell Labs, USA
-* Primary reason to learn C for me is to start understanding code behind Linux kernel.
-* I have just completed a 100 videos playlist on Operating Systems and 
-* some of the concepts of it can be well understood with help of C. Even he was using C's code to give certain examples.
-* I want to explore more about how operating systems work and C is a great language to understand that.
+https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/C_Complete_Notes.pdf
 
-==========
-< What is Programming ? >
-- Programming is the process of designing and building executable computer software to accomplish a specific task.
-- It involves writing code in a programming language, which is a formal set of instructions that can be understood by a computer.
-- Programming enables us to create software applications, automate tasks, and solve complex problems using algorithms and data structures.
-< Uses of C Programming Language >
-- Major parts of Windows, Linux, and other operating systems are written in C.
-- C is widely used in embedded systems and IoT devices.
-- C is often used for system programming, including writing operating systems and device drivers.
-- C is used in high-performance applications, such as game development and real-time systems.
+https://drive.google.com/file/d/1lE9AorLHRDydU3zBuAngTOkmtmSD5Gul/view?usp=sharing
 
-Actually programs that have to run in limited memory and resources, will benefit from C's efficiency and control over system resources.
-==========
-* Example C program
-
-```
-# include <stdio.h>
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-    ```
-==========
-< Chapter 1 : Variables, Constants & Keywords >
-# Variables
-- Variables are used to store data or values in computer memory.
-- In C, a variable must be declared before it can be used.
-- The declaration includes the variable's name and type.
-- C supports several data types, including int, float, char, and more.
-
-```
-
-int a = 3;          
-float b = 4.7;
-char c = 'A';
-
-```
-< Rules For Naming Variables In C>
-1. First character must be a letter (a-z, A-Z) or an underscore (_).
-2. No commas and blanks are allowed in variable names.
-3. Variable names are case-sensitive (e.g., myVar and myvar are different).
-4. No special symbol other than underscore (_) is allowed in variable names.
-5. Avoid using keywords or reserved words as variable names. 
-
-+ To increase readability, use meaningful names that describe the variable's purpose. +
-
-# Constants
-- Constants are fixed values that do not change during the execution of a program.
-- 
-
-33.36
