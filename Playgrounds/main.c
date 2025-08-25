@@ -131,6 +131,19 @@
 //  }
 
 
+//Chapeter 2 
+// Write a program to check whether a number is divisible by 97 or not.
+# include <stdio.h>
+int main (){
+    int num;
+    printf("Enter the number\n");
+    scanf("%d", &num);
+
+    printf("Divisiblity test returns: %d\n", num%97);
+    // if remainder is 0 then it is divisible else not
+
+    return 0;
+}
 
 
 
