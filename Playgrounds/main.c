@@ -133,17 +133,79 @@
 
 //Chapeter 2 
 // Write a program to check whether a number is divisible by 97 or not.
+// # include <stdio.h>
+// int main (){
+//     int num;
+//     printf("Enter the number\n");
+//     scanf("%d", &num);
+
+//     printf("Divisiblity test returns: %d\n", num%97);
+//     // if remainder is 0 then it is divisible else not
+
+//     return 0;
+// }
+
+
+// This is a C program that checks whether the program is odd or even.
+
+// # include <stdio.h>
+// int main (){
+//     int a, b;
+
+//     printf("Enter a Number\n");
+//     scanf("%d", &a);
+
+//     if(a%2==0){
+//         printf("%d is even\n");
+//     } 
+//     else{
+//         printf("%d is odd\n");
+//     }
+//     // agar magar if else wali baat cheet
+//     return 0;
+// }
+
+
+// Write a program to check whether the person can or cannot drive based on his age
+
 # include <stdio.h>
-int main (){
-    int num;
-    printf("Enter the number\n");
-    scanf("%d", &num);
+int main () {
+    int a;
+    printf("Please enter your age: ");
+    scanf("%d", &a);
 
-    printf("Divisiblity test returns: %d\n", num%97);
-    // if remainder is 0 then it is divisible else not
-
+    if (a >=18){
+        printf("You are 18 or above, you can drive!\n");
+    } else {
+        printf("Sorry, you can't drive\n");
+    }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
