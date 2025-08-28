@@ -20,7 +20,6 @@
 //     return 0;
 // }
 
-
 // # include <stdio.h>
 // int main() {
 //     int a;
@@ -66,7 +65,7 @@
 // int main(){
 //     int r, h;
 //     float volume;
-    
+
 //     printf("Enter radius of cylinder: ");
 //     scanf("%d", &r);
 
@@ -77,7 +76,6 @@
 //     printf("Volume of Cylinder is: %f\n", volume);
 //     return 0;
 // }
-
 
 // Celcius to Fahrenheit
 // F = (9/5 * C) + 32
@@ -130,21 +128,19 @@
 //     return 0;
 //  }
 
-
-//Chapeter 2 
-// Write a program to check whether a number is divisible by 97 or not.
-// # include <stdio.h>
-// int main (){
-//     int num;
-//     printf("Enter the number\n");
-//     scanf("%d", &num);
+// Chapeter 2
+//  Write a program to check whether a number is divisible by 97 or not.
+//  # include <stdio.h>
+//  int main (){
+//      int num;
+//      printf("Enter the number\n");
+//      scanf("%d", &num);
 
 //     printf("Divisiblity test returns: %d\n", num%97);
 //     // if remainder is 0 then it is divisible else not
 
 //     return 0;
 // }
-
 
 // This is a C program that checks whether the program is odd or even.
 
@@ -157,7 +153,7 @@
 
 //     if(a%2==0){
 //         printf("%d is even\n");
-//     } 
+//     }
 //     else{
 //         printf("%d is odd\n");
 //     }
@@ -165,82 +161,98 @@
 //     return 0;
 // }
 
-
 // Write a program to check whether the person can or cannot drive based on his age
 
-# include <stdio.h>
-int main () {
-    int a;
-    printf("Please enter your age: ");
-    scanf("%d", &a);
-
-    if (a >=18){
-        printf("You are 18 or above, you can drive!\n");
-    } else {
-        printf("Sorry, you can't drive\n");
-    }
-    return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// # include <stdio.h>
+// int main () {
+//     int a;
+//     printf("Please enter your age: ");
+//     scanf("%d", &a);
+
+//     if (a >=18){
+//         printf("You are 18 or above, you can drive!\n");
+//     } else {
+//         printf("Sorry, you can't drive\n");
+//     }
+//     return 0;
+// }
+
+// # include <stdio.h>
+// int main() {
+//     int a;
+//     printf("Enter a: ");
+//     scanf("%d", &a);
+
+//     (a < 5) ? printf("A is less than 5\n") : printf("A is not less than 5\n");
+
+//     return 0;
+// }
+
+// # include <stdio.h>
+// int main(){
+//     int rating;
+//     printf("Enter your rating (1-5)\n");
+//     scanf("%d", &rating);
+
+//     switch (rating){
+//         case 1:
+//         printf("Your rating is 1\n");
+//         break;
+
+//         case 2:
+//         printf("Your rating is 2\n");
+//         break;
+
+//         case 3:
+//         printf("Your rating is 3\n");
+//         break;
+
+//         case 5:
+//         printf("Your rating is 5\n");
+//         break;
+
+//         default :
+//         printf("Invalid Rating!\n");
+//         break;
+//     }
+//     return 0;
+// }
+
+// Write a program to find grade of a student given his marks based on below:
+//  90-100 ---> A
+//  80-90  ---> B
+//  70-80  ---> C
+//  60-70  ---> D
+//  <70    ---> F
+
+// #include <stdio.h>
+// int main()
+// {
+//     int marks;
+//     printf("Enter Marks of Student: ");
+//     scanf("%d", &marks);
+
+//     if (marks >= 90 && marks <= 100)
+//     {
+//         printf("Grade is A, Student has performed Excellent\n");
+//     }
+//     else if (marks >= 80 && marks < 90)
+//     {
+//         printf("Grade is B, Student has performed above average.\n");
+//     }
+//     else if (marks >= 70 && marks < 80)
+//     {
+//         printf("Grade is C, Student performed average.\n");
+//     }
+//     else if (marks >= 60 && marks < 70)
+//     {
+//         printf("Grade is D, Student performed below average\n");
+//     }
+//     else if (marks < 60)
+//     {
+//         printf("Grade is F, Student needs to put in more efforts.\n");
+//     }
+
+//     // I wasn't able to write logic for this program, I had to use GitHub co-pilot agent mode. Sorry.
+//     return 0;
+// }
