@@ -256,3 +256,213 @@
 //     // I wasn't able to write logic for this program, I had to use GitHub co-pilot agent mode. Sorry.
 //     return 0;
 // }
+
+
+/* Write a program to find out whether a student is pass or fail; 
+if it requires total 40% and at least 33% in each subject  to pass.
+Assume 3 subjects and take marks as an unput from the user.*/
+
+// # include <stdio.h>
+// int main(){
+//     int phys, chem, bio, eng ;
+//     float total;
+
+//     printf("Enter marks in Physics out of 100: ");
+//     scanf("%d", &phys);
+
+//     printf("Enter marks in Chemistry out of 100: ");
+//     scanf("%d", &chem);
+
+//     printf("Enter marks in Biology out of 100: ");
+//     scanf("%d", &bio);
+
+//     printf("Enter marks in English out of 100: ");
+//     scanf("%d", &eng);
+
+//     total = (phys + chem + bio + eng)/4;
+
+//     if(total<40 || phys<33 || chem<33 || bio<33 || eng<33){
+//         printf("Your total percentage is %f and dude you've failed!\n", total);
+//     } else {
+//         printf("Your total percentage is %f and dude you've passed!!\n", total);
+//     }
+//     return 0;
+// }
+
+
+// Calculate income tax paid by an employee to the government as per the slabs mentioned below:
+/* Income Slab       Tax
+ 2.5L -5.0L          5%
+ 5.0L-10.0L          20%
+ Above 10.0L         30% */
+
+//  # include <stdio.h>
+//  int main(){
+//     float tax = 0, income;
+//     printf("Enter your income: ");
+//     scanf("%f", &income);
+
+//     if (income>=250000 && income<=500000)
+//     {
+//         tax = tax + 0.05 * (income - 2500000);
+//     }
+
+//     if (income>=500000 && income<=1000000)
+//     {
+//         tax = tax + 0.20 * (income - 500000);
+//     }
+//     if (income >= 1000000)
+//     {
+//         tax = tax + 0.30 * (income - 1000000);
+//     }
+    
+//     printf("Your net income tax to be paid by 26th of this month is: %f\n ", tax);
+    
+//     return 0;
+//  }
+
+
+/*Write a program to find whether a year entered by the user is a leap year or not. Take year as an input from the user.*/
+// #include <stdio.h>
+// int main() {
+//     int leap;
+//     printf("Enter the year which you want to check: ");
+//     scanf("%d", &leap);
+
+//     if ((leap % 4 == 0 && leap % 100 != 0) || (leap % 400 == 0)) {
+//         printf("Year you entered is a leap year.\n");
+//     } else {
+//         printf("Year you entered is not a leap year.\n");
+//     }
+//     return 0;
+// }
+
+
+
+// Write a program to determine whethe a charcter entered by the user is lowercase or not. 
+
+// 97-122 = a-z
+// #include <stdio.h>
+// int main(){
+//     char ch;
+//     printf("Enter the character: ");
+//     scanf("%c", &ch);
+
+//     if(ch<=122 && ch>=97){
+//         printf("It is lowercase\n");
+//     }
+//     else{
+//         printf("It is not lowercase\n");
+//     }
+//     return 0;
+// }
+
+
+// now same program but it goes to it's mean value again n again
+
+// #include <stdio.h>
+// int main(){
+//     char ch;
+//     while (1) {
+//         printf("Enter the character (enter 0 to exit): ");
+//         scanf(" %c", &ch); // Note the space before %c to consume any leftover newline
+
+//         if (ch == '0') {
+//             break;
+//         }
+
+//         if (ch >= 'a' && ch <= 'z') {
+//             printf("It is lowercase\n");
+//         } else {
+//             printf("It is not lowercase\n");
+//         }
+//     }
+//     return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
